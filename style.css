@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(229, 235, 235);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: -8rem;
+}
+
+.bubble{
+    /* background-color: rgb(184, 142, 27); */
+    display: flex;
+}
+
+.a{
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(23, 191, 197);
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+    margin-top: -7rem;
+    margin-left: -7rem;
+}
+
+.b{
+    height: 15rem;
+    width: 15rem;
+    background-color: rgb(23, 191, 197);
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+    margin-top: -10rem;
+    margin-left: 2rem;
+}
+
+.img{
+    margin-top: 5rem;
+    /* justify-content: center; */
+    /* position: c; */
+    justify-items: center;
+    /* margin-top: 15rem; */
+    display: flex;
+    width: 100%;
+    
+}
+
+img{
+    justify-content: center;
+    height: 50vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* width: 80%; */
+    font-size: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    padding: 5%;
+}
+
+p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    /* margin-bottom: 30px; */
+    padding: 5%;
+
+}
+
+button{
+    width: 80%;
+    height: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    background-color: rgb(23, 191, 197);
+    border: none;
+    margin-bottom: 40px;
+}
